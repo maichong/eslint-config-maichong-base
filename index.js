@@ -37,6 +37,26 @@ module.exports = {
     'import/no-extraneous-dependencies': 0,
     'import/no-unresolved': 0,
     'import/prefer-default-export': 0,
+    'lines-around-comment': [
+      'error',
+      {
+        beforeBlockComment: true,
+        allowBlockStart: true,
+        allowClassStart: true,
+        allowClassEnd: true,
+        allowObjectStart: true,
+        allowObjectEnd: true,
+        allowArrayStart: true,
+        allowArrayEnd: true
+      }
+    ],
+    'lines-between-class-members': [
+      'error',
+      'always',
+      {
+        exceptAfterSingleLine: true
+      }
+    ],
     'max-len': [
       2,
       {
