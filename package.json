@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-maichong-base",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Maichong's ESLint config",
   "main": "index.js",
   "scripts": {
@@ -18,12 +18,12 @@
   },
   "homepage": "https://github.com/maichong/eslint-config-maichong-base#readme",
   "dependencies": {
-    "babel-eslint": "^8.2.5",
     "eslint-config-airbnb-base": "^13.0.0",
     "eslint-plugin-flowtype": "^2.49.3",
     "eslint-plugin-import": "^2.13.0"
   },
   "devDependencies": {
+    "babel-eslint": "^8.2.5",
     "eslint": "^5.0.1",
     "flow-bin": "^0.75.0"
   }
