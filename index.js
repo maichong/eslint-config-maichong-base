@@ -34,6 +34,7 @@ module.exports = {
     'func-names': 0,
     'import/extensions': 0,
     'import/no-duplicates': 2,
+    'import/no-cycle': 1,
     'import/no-extraneous-dependencies': 0,
     'import/no-unresolved': 0,
     'import/prefer-default-export': 0,
@@ -89,7 +90,7 @@ module.exports = {
         max: 1
       }
     ],
-    'no-param-reassign': 1,
+    'no-param-reassign': 0,
     'no-prototype-builtins': 0,
     'no-restricted-syntax': [
       'error',
@@ -100,7 +101,7 @@ module.exports = {
     'no-underscore-dangle': 0,
     'prefer-const': 0,
     'prefer-destructuring': 1,
-    'prefer-template': 1,
+    'prefer-template': 2,
     radix: 0,
     'require-yield': 1,
     'space-before-function-paren': [
